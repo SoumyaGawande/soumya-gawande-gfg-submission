@@ -2,4 +2,10 @@
   "dependencies": {
     "react-router-dom": "^7.7.1"
   }
+
+"homepage": "https://<SoumyaGawande>.github.io/<soumya-gawande-gfg-submission>",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
 }
